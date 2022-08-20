@@ -1,0 +1,16 @@
+ins.dll == init()
+accmanage.dll == init()
+
+account = ss2131334qw
+access = ins.dll
+
+if rr.exe ask key
+then
+for key
+start(accmanage.dll)
+
+if fail
+stop ins.dll
+stop ins.startup.dll
+abort(rr.exe)
+print("flush now")

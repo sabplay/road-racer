@@ -1,0 +1,10 @@
+rr.exe = init()
+
+if rr.exe open
+then
+start ins.startup.dll
+
+if unable to start 
+then
+kill program(rr.exe)
+print("flush now")

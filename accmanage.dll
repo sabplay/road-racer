@@ -1,0 +1,12 @@
+rr.exe = init()
+acchaxmmm = init()
+rr.key = init()
+
+if rr.exe start
+then
+start rr.key
+else
+add keys.txt to rr.exe
+else
+quit(rr.exe)
+print("flush now")

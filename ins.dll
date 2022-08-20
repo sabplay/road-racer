@@ -1,0 +1,12 @@
+rr.exe = init()
+acchaxmmm = init()
+
+if rr.exe open
+then
+start acchaxmmm.dll
+
+if unable to start 
+then
+stop ins.startup.dll
+kill program(rr.exe)
+print("flush now")
